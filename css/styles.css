@@ -14,29 +14,8 @@ body{
   align-items:center;
 }
 
- .nav_wrapper > .github {
-  margin-right: 10px;
-  font-size: 0.9em;
-  text-transform: uppercase;
-}
-
- .nav_wrapper > .linkedin {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 0.9em;
-  text-transform: uppercase;
-}
-
-.nav_wrapper > .mail {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 0.9em;
-  text-transform: uppercase;
-}
-
 .nav_wrapper > .header {
   line-height: 0;
-  margin-left: 10px;
   background: -webkit-linear-gradient(#7002ff, #060505);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -44,8 +23,9 @@ body{
 
 .content_wrapper{
   display: grid;
-  grid-gap: 50px;
-  padding: 50px;
+  grid-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (min-width: 600px) {
@@ -71,8 +51,9 @@ body{
 }
 
 .img-darken{
-  transition: 1s;
-  filter: brightness(10%);
+  transition-duration: 2s;
+  transform: scale(1.2);
+  filter: brightness(90%);
 }
 
 
