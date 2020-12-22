@@ -1,0 +1,101 @@
+body{
+  background-color: lavender;
+  font-family: "Apple SD Gothic Neo";
+}
+
+.container{
+  display: grid;
+}
+
+
+.nav_wrapper{
+  display: flex;
+  padding: 15px;
+  align-items:center;
+}
+
+ .nav_wrapper > .github {
+  margin-right: 10px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+ .nav_wrapper > .linkedin {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav_wrapper > .mail {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav_wrapper > .header {
+  line-height: 0;
+  margin-left: 10px;
+  background: -webkit-linear-gradient(#7002ff, #060505);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content_wrapper{
+  display: grid;
+  grid-gap: 50px;
+  padding: 50px;
+}
+
+@media (min-width: 600px) {
+  .content_wrapper{ grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .content_wrapper { grid-template-columns: repeat(3, 1fr); }
+}
+
+.content_wrapper{
+  position: relative;
+}
+
+.content_wrapper_link{
+
+}
+
+.content-img-background{
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+
+.img-darken{
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+
+/*.nav_wrapper_link{
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav_wrapper_link a{
+  color: #999999;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav_wrapper_link:hover{
+  border-bottom: 1px solid black;
+}
+
+.nav_wrapper_link a:hover{
+  color: black;
+}*/
+
+
+
+
