@@ -13,105 +13,77 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!-- Add your site or application content here -->
-  <div class="container">
+<!-- Add your site or application content here -->
 
-    <div class="nav_wrapper">
-      <div class="github">
-        <a href="https://github.com/allisonmazurek" class="fa fa-github" style=" font-size: 24px; margin-right: 10px; margin-left: 10px; color: #3a067d" ></a>
-      </div>
-      <div class="linkedin">
-          <a href="https://www.linkedin.com/in/allimaz/" class="fa fa-linkedin" style="font-size: 24px; margin-right: 10px; margin-left: 10px; color: #3a067d"></a>
-      </div>
-      <div class="mail">
-          <a href="mailto:allison.mazurek@mail.mcgill.ca" class="fa fa-inbox" style="font-size: 24px; margin-right: 10px; margin-left: 10px; color: #3a067d"></a>
-      </div>
-      <div class="header">
-          <h1 style="font-size: 40px; margin-right: 10px; margin-left: 10px;"><b>allisonresume.com</b></h1>
-      </div>
-    </div>
+<div class="nav_wrapper">
+  <a href="https://github.com/allisonmazurek" class="fa fa-github" style=" font-size: 30px; margin-right: 10px; margin-left: 10px; color: #3a067d" ></a>
+  <a href="https://www.linkedin.com/in/allimaz/" class="fa fa-linkedin" style="font-size: 30px; margin-right: 10px; margin-left: 10px; color: #3a067d"></a>
+  <a href="mailto:allison.mazurek@mail.mcgill.ca" class="fa fa-inbox" style="font-size: 30px; margin-right: 10px; margin-left: 10px; color: #3a067d"></a>
+  <div class="header">
+    <h1 style="font-size: 35px; margin-right: 20px; margin-left: 10px; padding-right: 20px"><b>allisonresume.com</b></h1>
+  </div>
+</div>
 
-      <div class="content_wrapper">
+<div class="Profile">
+  <img src="me.png" alt="">
+  <div class="Title">
+    <h2 style="padding: 20px; white-space: nowrap"> <br> Allison Mazurek <br>Electrical Engineering <br>Mcgill University</h2>
+  </div>
+</div>
 
-          <div class="content_wrapper_link">
-            <div class="content-img-background">
-              <img src="img/me.png" alt="">
-            </div>
-                </div>
-
-          <div class="content_wrapper_link">
-            <div class="content-img-background">
-              <img src="img/me.png" alt="">
-            </div>
-          </div>
-
-          <div class="content_wrapper_link">
-            <div class="content-img-background" >
-              <img src="img/me.png" alt="">
-            </div>
-          </div>
-
-          <div class="content_wrapper_link">
-            <div class="content-img-background" >
-              <img src="img/me.png" alt="">
-            </div>
-          </div>
-
-          <div class="content_wrapper_link">
-            <div class="content-img-background" >
-              <img src="img/me.png" alt="">
-            </div>
-          </div>
-
-        <div class="content_wrapper_link">
-          <div class="content-img-background" >
-            <img src="img/me.png" alt="">
-          </div>
-        </div>
-
-        </div>
-      </div>
+<div class="wrapper">
+  <div class="content-img-background">
+    <h2>McGill Robotics</h2>
+    <p>Worked on the software and electrical design of an AUV (autonomous underwater vehicle) for competition. Tools include: Arduino, ROS, Python</p>
+  </div>
+  <div class="content-img-background">
+    <h2>MultiCOM – Multi Device Serial Terminal</h2>
+    <p>Worked in a team to develop MultiCOM, a tool which allows a user to simultaneously communicate with multiple Serial devices, enforce various communication protocols, and synchronize messages. The project took the form of a JavaFX application and Arduino library</p>
+  </div>
+  <div class="content-img-background">
+    <h2>CodeJam 2020</h2>
+    <p>Submitted a winning project to the Code Jam 2020 hackathon, an android app which intelligently suggests mindful activities to users</p>
+  </div>
+  <div class="content-img-background">
+    <h2>General Motors – Production Associate</h2>
+    <p>Worked in General Motors, doing quality control on the Chevrolet Equinox. Here I was exposed to a number of technical challenges working with sophisticated test equipment and identifying, isolating, and solving issues in production.</p>
+  </div>
+  <div class="content-img-background">
+    <h2>This Resume</h2>
+    <p>Made this resume to learn HTML, CSS, and JavaScript.</p>
+  </div>
+</div>
+</div>
 
 
 
- <!-- block elements take up entire width (divs)
-      inline elements (spans) -->
-  <script>
-    const items = document.querySelectorAll('.content_wrapper_link')
-    items.forEach(item => {
-      item.addEventListener('mouseover', () =>{
-        item.childNodes[1].classList.add('img-darken');
-      })
-      item.addEventListener('mouseout', () =>{
-        item.childNodes[1].classList.remove('img-darken');
-      })
+<!-- block elements take up entire width (divs)
+     inline elements (spans) -->
+<script>
+  const items = document.querySelectorAll('.content-img-background')
+  items.forEach(item => {
+    item.addEventListener('mouseover', () =>{
+      console.log(item.classList.keys());
     })
-  </script>
+  })
+</script>
 
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html> <!-- ending html tag -->

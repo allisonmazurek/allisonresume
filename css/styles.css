@@ -3,79 +3,87 @@ body{
   font-family: "Apple SD Gothic Neo";
 }
 
-.container{
-  display: grid;
-}
-
-
 .nav_wrapper{
   display: flex;
   padding: 15px;
-  align-items:center;
+  align-items: baseline;
 }
 
+
 .nav_wrapper > .header {
-  line-height: 0;
+  line-height: 0.1;
   background: -webkit-linear-gradient(#7002ff, #060505);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.content_wrapper{
+
+.wrapper {
   display: grid;
-  grid-gap: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 20px;
+  text-align: left;
 }
 
 @media (min-width: 600px) {
-  .content_wrapper{ grid-template-columns: repeat(2, 1fr); }
+  .wrapper{ grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 900px) {
-  .content_wrapper { grid-template-columns: repeat(3, 1fr); }
+  .wrapper { grid-template-columns: repeat(3, 1fr); }
 }
 
-.content_wrapper{
-  position: relative;
+
+.content-img-background{
+  background: -webkit-linear-gradient(#310962, #060505);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.content_wrapper_link{
-
+.Profile{
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-.content-img-background > img{
-  max-width: 100%;
+.Title{
+  background: -webkit-linear-gradient(#450f98, #060505);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-font-size: 30px;
+  padding-right: 15px;;
+}
+
+.Profile img{
+  width: 150px;
   height: auto;
-  object-fit: cover;
+  padding-left: 15px;
+  padding-top: 30px;
 }
 
-.img-darken{
+
+.img-darken {
   transition-duration: 2s;
   transform: scale(1.2);
-  filter: brightness(90%);
 }
 
-
-/*.nav_wrapper_link{
+.nav_wrapper{
   height: 22px;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
 }
 
-.nav_wrapper_link a{
+.nav_wrapper a{
   color: #999999;
   text-decoration: none;
   transition: color 0.5s;
 }
 
-.nav_wrapper_link:hover{
-  border-bottom: 1px solid black;
+.nav_wrapper a:hover{
+  border-bottom: 2px solid #3a067d;
 }
 
-.nav_wrapper_link a:hover{
-  color: black;
-}*/
 
 
 

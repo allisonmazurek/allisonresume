@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c1f41-dfd1-4f66-bdb8-0e3cff40caf3" name="Default Changelist" comment="something">
-      <change beforePath="$PROJECT_DIR$/.idea/aliisonresume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aliisonresume.iml" afterDir="false" />
+    <list default="true" id="339c1f41-dfd1-4f66-bdb8-0e3cff40caf3" name="Default Changelist" comment="icons fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Lin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/git.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608521186612</updated>
       <workItem from="1608521191246" duration="1879000" />
-      <workItem from="1608591040630" duration="16750000" />
+      <workItem from="1608591040630" duration="31007000" />
+      <workItem from="1608677203133" duration="1796000" />
     </task>
     <task id="LOCAL-00001" summary="FirstHTML">
       <created>1608524144447</created>
@@ -104,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608604696598</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="icons fixed">
+      <created>1608659601632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608659601632</updated>
+    </task>
+    <task id="LOCAL-00006" summary="icons fixed">
+      <created>1608659609766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608659609766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +144,7 @@
     <MESSAGE value="FirstHTML" />
     <MESSAGE value="HTML5 boilerplate" />
     <MESSAGE value="something" />
-    <option name="LAST_COMMIT_MESSAGE" value="something" />
+    <MESSAGE value="icons fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons fixed" />
   </component>
 </project>
