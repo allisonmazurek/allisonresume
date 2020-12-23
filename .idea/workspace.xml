@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c1f41-dfd1-4f66-bdb8-0e3cff40caf3" name="Default Changelist" comment="icons fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Lin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/git.png" beforeDir="false" />
+    <list default="true" id="339c1f41-dfd1-4f66-bdb8-0e3cff40caf3" name="Default Changelist" comment="something good maybe needs work">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +72,7 @@
       <updated>1608521186612</updated>
       <workItem from="1608521191246" duration="1879000" />
       <workItem from="1608591040630" duration="31007000" />
-      <workItem from="1608677203133" duration="1796000" />
+      <workItem from="1608677203133" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="FirstHTML">
       <created>1608524144447</created>
@@ -122,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608659609766</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="something good maybe needs work">
+      <created>1608695749379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608695749380</updated>
+    </task>
+    <task id="LOCAL-00008" summary="something good maybe needs work">
+      <created>1608695841956</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608695841956</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +153,7 @@
     <MESSAGE value="HTML5 boilerplate" />
     <MESSAGE value="something" />
     <MESSAGE value="icons fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="icons fixed" />
+    <MESSAGE value="something good maybe needs work" />
+    <option name="LAST_COMMIT_MESSAGE" value="something good maybe needs work" />
   </component>
 </project>
