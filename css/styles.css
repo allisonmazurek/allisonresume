@@ -38,7 +38,6 @@ body{
 .content-img-background{
   background: -webkit-linear-gradient(#310962, #060505);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .Profile{
@@ -50,7 +49,6 @@ body{
 .Title{
   background: -webkit-linear-gradient(#450f98, #060505);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   max-font-size: 30px;
   padding-right: 15px;;
 }
